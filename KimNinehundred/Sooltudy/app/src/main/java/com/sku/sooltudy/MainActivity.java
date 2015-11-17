@@ -25,6 +25,8 @@ public class MainActivity extends Activity {
             }
 
         });
+        Button btnToWrite = (Button)findViewById(R.id.btnToWrite);
+
 
 
 

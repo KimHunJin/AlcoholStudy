@@ -20,6 +20,8 @@
             android:name=".SecondActivity"
             android:label="@string/title_activity_second" >
         </activity>
+
+        <activity android:name=".SignupActivity" />
     </application>
 
 </manifest>

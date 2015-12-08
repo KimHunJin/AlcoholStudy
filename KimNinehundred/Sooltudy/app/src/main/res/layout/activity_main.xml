@@ -1,14 +1,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<<<<<<< HEAD
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+=======
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
-
-
-
+    android:paddingBottom="@dimen/activity_vertical_margin">
+>>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794
 
     <LinearLayout
         android:orientation="horizontal"
@@ -20,13 +21,37 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView" />
         >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etx_username"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:text="일기장과 별찍기."
+            />
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Make Star"
         android:id="@+id/btn"
         android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/btnToWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일기장으로 가자"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DailyNote"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal" />
+
+
+
 
 </LinearLayout>

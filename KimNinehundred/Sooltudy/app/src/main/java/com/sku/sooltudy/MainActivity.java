@@ -18,6 +18,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         Button btn = (Button) findViewById(R.id.btn);
+        Button button = (Button) findViewById(R.id.button1);
+
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent it = new Intent(getApplicationContext(),SecondActivity.class);
@@ -25,6 +27,25 @@ public class MainActivity extends Activity {
             }
 
         });
+<<<<<<< HEAD
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(getApplicationContext(),WriteActivity.class);
+                startActivity(it);
+            }
+        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view){
+                Intent it = new Intent(getApplicationContext(),SecondActivity.class);
+                startActivity(it);
+            }
+        });
+=======
+        Button btnToWrite = (Button)findViewById(R.id.btnToWrite);
+
+>>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794
 
 
 

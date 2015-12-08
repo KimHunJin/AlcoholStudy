@@ -11,6 +11,7 @@ import android.widget.Toast;
  * Created by Administrator on 2015-11-10.
  */
 public class SignupActivity extends Activity{
+
     EditText etid;
     Button btn_save;
 

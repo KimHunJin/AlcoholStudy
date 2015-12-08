@@ -1,3 +1,49 @@
+<<<<<<< HEAD
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sku.sooltudy.WriteActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+        <EditText
+            android:hint="write"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dailyNote"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:id="@+id/btn_save"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+=======
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
@@ -33,3 +79,4 @@
         android:layout_weight="0.1"
         />
 </LinearLayout>
+>>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794

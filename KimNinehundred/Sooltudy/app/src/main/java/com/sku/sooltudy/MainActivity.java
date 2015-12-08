@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
             }
 
         });
+<<<<<<< HEAD
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +42,10 @@ public class MainActivity extends Activity {
                 startActivity(it);
             }
         });
+=======
+        Button btnToWrite = (Button)findViewById(R.id.btnToWrite);
+
+>>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794
 
 
 

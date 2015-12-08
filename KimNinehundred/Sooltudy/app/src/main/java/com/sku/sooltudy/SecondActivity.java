@@ -1,5 +1,11 @@
+/**
+ *
+ */
 package com.sku.sooltudy;
 
+/**
+ *
+ */
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,12 +16,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
+/**
+ *
+ */
 public class SecondActivity extends Activity {
 
     EditText edt;
     Button btn;
     TextView txt;
 
+    /**
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +50,12 @@ public class SecondActivity extends Activity {
         });
 
     }
+
+
+    /**
+     *
+     * @param num
+     */
     private  void Star(int num){
         for (int i = 0; i<num;i++){
             for (int j = 0; j<i;j++){

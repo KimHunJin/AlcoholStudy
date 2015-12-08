@@ -29,6 +29,11 @@ public class DateBase extends SQLiteOpenHelper {
         db.execSQL(query);
         db.close();
     }
+    public void showNote(String query){
+        SQLiteDatabase db = getReadableDatabase();
+        db.execSQL(query);
+        db.close();
+    }
 
 
 }

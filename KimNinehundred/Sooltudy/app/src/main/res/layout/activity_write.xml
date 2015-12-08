@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -13,6 +13,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.9"
         android:orientation="vertical">
+
         <EditText
             android:hint="write"
             android:gravity="top|left"
@@ -32,6 +33,11 @@
             android:text="Save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_show"
+            android:text="show"/>
         </LinearLayout>
 
 
@@ -42,41 +48,3 @@
 
 
 
-
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <EditText
-        android:id="@+id/edtTheme"
-        android:hint="제목"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:maxLines="1"
-        />
-
-    <EditText
-        android:id="@+id/edtWrite"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.9"
-        android:layout_gravity="center_horizontal"
-        android:hint="오늘의 일기"
-        />
-        <!--android:height="5dp"-->
-    <Button
-        android:id="@+id/btn_save_daily"
-        android:layout_width="match_parent"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_height="0dp"
-        android:text="저장하기"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.1"
-        />
-</LinearLayout>
->>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794

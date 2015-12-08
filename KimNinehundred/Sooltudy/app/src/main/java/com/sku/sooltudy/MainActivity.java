@@ -20,14 +20,7 @@ public class MainActivity extends Activity {
         Button btn = (Button) findViewById(R.id.btn);
         Button button = (Button) findViewById(R.id.button1);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent it = new Intent(getApplicationContext(),SecondActivity.class);
-                startActivity(it);
-            }
 
-        });
-<<<<<<< HEAD
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,16 +29,8 @@ public class MainActivity extends Activity {
             }
         });
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view){
-                Intent it = new Intent(getApplicationContext(),SecondActivity.class);
-                startActivity(it);
-            }
-        });
-=======
         Button btnToWrite = (Button)findViewById(R.id.btnToWrite);
 
->>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794
 
 
 

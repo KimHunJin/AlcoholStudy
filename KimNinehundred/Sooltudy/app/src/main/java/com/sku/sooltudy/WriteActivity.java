@@ -13,7 +13,7 @@ import java.sql.SQLData;
 
 
 public class WriteActivity extends Activity {
-    Button btn_save;
+    Button btn_save , btn_show;
     EditText dailynote;
 
     @Override
@@ -24,14 +24,24 @@ public class WriteActivity extends Activity {
         btn_save = (Button) findViewById(R.id.btn_save);
         dailynote = (EditText) findViewById(R.id.dailyNote);
 
+
         btn_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String note = dailynote.getText().toString();
                 //note의 값을 db에 저장하려고 한다
                 db.insertNote("insert into 'daily_note' values(1,'"+note+"');" );
+                db.close();
             }
         });
+        btn_show.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+
 
     }
 

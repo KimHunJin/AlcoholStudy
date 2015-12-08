@@ -16,19 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SecondActivity"
-            android:label="@string/title_activity_second" >
-        </activity>
-<<<<<<< HEAD
+
         <activity
             android:name=".WriteActivity"
             android:label="@string/title_activity_write" >
         </activity>
-=======
+
 
         <activity android:name=".SignupActivity" />
->>>>>>> 77bb6c9b54018b039df651ea726716f6d34f4794
+
     </application>
 
 </manifest>

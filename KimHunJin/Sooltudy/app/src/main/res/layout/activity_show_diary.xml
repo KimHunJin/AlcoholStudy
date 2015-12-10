@@ -1,17 +1,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sku.sooltudy.firstapp.DiaryActivity"
+    tools:context="com.sku.sooltudy.firstapp.ShowDiaryActivity"
     android:orientation="vertical">
 
     <include layout="@layout/toolbar_layout"/>
 
-    <EditText
-        android:id="@+id/edtDiaryName"
+    <TextView
+        android:id="@+id/txtDiaryContentsName"
         android:hint="제목을 입력하세요."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
+        android:textSize="24dp"
         android:layout_margin="4dp"/>
 
     <View
@@ -28,9 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
-                android:hint="내용을 입력하세요."
-                android:id="@+id/edtDiaryContents"
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/txtDiaryContents"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -51,17 +51,8 @@
         android:layout_weight="0.1">
 
         <Button
-            android:text="Save"
-            android:id="@+id/btnDiarySave"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_weight="0.5"/>
-
-        <Button
-            android:text="Cancel"
-            android:id="@+id/btnDiaryCancel"
+            android:text="Close"
+            android:id="@+id/btnDiaryClose"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"

@@ -8,4 +8,8 @@
     <string name="title_activity_sql">SQLActivity</string>
     <string name="title_activity_diary">DiaryActivity</string>
     <string name="title_activity_sqlite_test">SQLiteTest</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_star">StarActivity</string>
+    <string name="title_activity_diary_list">DiaryListActivity</string>
+    <string name="title_activity_show_diary">ShowDiaryActivity</string>
 </resources>
